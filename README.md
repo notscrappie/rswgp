@@ -12,7 +12,7 @@
 
 <h1>Hosting your own instance</h1>
 <p>
-  In order for the website to work properly, you'll need to supply a Steam Web API key and yes, if you forget to provide it, the website will yell at you. You can create one [here](https://steamcommunity.com/dev/apikey).
+  In order for the website to work properly, you'll need to supply a Steam Web API key and yes, if you forget to provide it, the website will yell at you. You can create one here: https://steamcommunity.com/dev/apikey.
   After that, you can pretty much deploy this wherever you want like Vercel, Netlify and whatever server environments exist these days (you'll probably need to make use of OpenNext to deploy on AWS or any of those platforms though).
 </p>
 
