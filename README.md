@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">
+  Random Steam Wishlist Game Picker (RSWGP)
+</h1>
+<p align="center">
+  For those of you who have too many games in their wishlist and don't know what to play.
+</p>
 
-## Getting Started
+<h1>About</h1>
+<p>
+  RSWGP is a project I made out of boredom and because I'm one of those people who have too many games in their wishlist and still don't know what to play. This also exists because I couldn't find a website for this (I         probably was blind and didn't see the result in Google). This is a simple Next.js app with a route handler that fetches your Steam ID, fetches your profile's wishlist and randomly picks a game that you should play.
+</p>
 
-First, run the development server:
+<h1>Hosting your own instance</h1>
+<p>
+  In order for the website to work properly, you'll need to supply a Steam Web API key and yes, if you forget to provide it, the website will yell at you. You can create one [here](https://steamcommunity.com/dev/apikey).
+  After that, you can pretty much deploy this wherever you want like Vercel, Netlify and whatever server environments exist these days (you'll probably need to make use of OpenNext to deploy on AWS or any of those platforms though).
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p>
+  Licensed under the MIT license. A Spearhead Labs side-project. From us to you, with love. <3
+</p>
