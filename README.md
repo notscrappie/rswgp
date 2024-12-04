@@ -7,7 +7,7 @@
 
 <h1>About</h1>
 <p>
-  RSWGP is a project I made out of boredom and because I'm one of those people who have too many games in their wishlist and still don't know what to play. This also exists because I couldn't find a website for this (I         probably was blind and didn't see the result in Google). This is a simple Next.js app with a route handler that fetches your Steam ID, fetches your profile's wishlist and randomly picks a game that you should play.
+  RSWGP is a project I made out of boredom and because I'm one of those people who have too many games in their wishlist and still don't know what to play. This also exists because I couldn't find a website for this (I         probably was blind and didn't see the result in Google). This is a simple Next.js app with a Hono.js backend (that also uses the Edge Runtime for experimental purposes) that fetches your Steam ID, fetches your profile's wishlist and randomly picks a game that you should play.
 </p>
 
 <h1>Hosting your own instance</h1>
