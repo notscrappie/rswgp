@@ -7,8 +7,6 @@ import { handle } from 'hono/vercel';
 import { getGameDetails, getWishlist, resolveVanityURL } from '@/lib/steam';
 import { HTTPException } from 'hono/http-exception';
 
-export const runtime = 'edge';
-
 const app = new Hono().basePath('/api');
 
 app.use(cors({
